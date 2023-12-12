@@ -1,0 +1,36 @@
+package treinamentoLacoRepeticao;
+
+import java.util.Scanner;
+
+public class teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner (System.in);
+		int numero;
+        int somaMultiplosDeTres = 0;
+        int contadorMultiplosDeTres = 0;
+        
+        System.out.println("Digite números inteiros (digite 0 para encerrar):");
+        
+        do {
+            System.out.print("Número: ");
+            numero = leia.nextInt();
+            
+            if (numero != 0 && numero % 3 == 0) {
+                somaMultiplosDeTres += numero;
+                contadorMultiplosDeTres++;
+            }
+        } while (numero != 0);
+        
+        if (contadorMultiplosDeTres > 0) {
+            double media = (double) somaMultiplosDeTres / contadorMultiplosDeTres;
+            System.out.println("A média dos números múltiplos de 3 é: " + media);
+        } else {
+            System.out.println("Nenhum número múltiplo de 3 foi digitado.");
+        }
+
+	}
+
+}

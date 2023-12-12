@@ -1,0 +1,41 @@
+package lacosrepeticao;
+
+import java.util.Scanner;
+
+public class ForExercicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int num1;
+		int num2;
+		Scanner leia = new Scanner (System.in);
+		
+		System.out.println("Digite o primeiro número:");
+		num1 = leia.nextInt();
+		
+		System.out.println("Digite o segundo número:");
+		num2 = leia.nextInt();
+
+		if(num1 >= num2) {
+				System.out.println("Intervalo inválido. O primeiro número deve ser menor que o segundo!");
+			return;
+			}else {
+				System.out.println("Múltiplos de 3 e 5 no intervalo de " +num1+ " a " +num2+ ":");
+				
+		for (int a= num1; a<=num2; a++) {
+			if(a %3 == 0 && a %5 ==0) {
+				System.out.println(a+ " ");
+			}
+		}
+		
+				
+			}
+			
+			
+			
+		}
+}
+
+

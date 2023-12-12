@@ -1,0 +1,33 @@
+package treinamento1;
+
+import java.util.Scanner;
+
+public class diferencaProduto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner (System.in);
+		float n1, n2, n3, n4, resultado;
+		
+		System.out.println("Digite o valor do primeiro produto: ");
+		n1 = leia.nextFloat();
+		
+		System.out.println("Digite o valor do segundo produto: ");
+		n2 = leia.nextFloat();
+		
+		System.out.println("Digite o valor do terceiro produto: ");
+		n3 = leia.nextFloat();
+		
+		System.out.println("Digite o valor do quarto produto: ");
+		n4 = leia.nextFloat();
+		
+		resultado = (n1*n2) - (n3*n4);
+		
+		System.out.println("A diferença entre os produtos é de: "+resultado);
+		
+		
+
+	}
+
+}

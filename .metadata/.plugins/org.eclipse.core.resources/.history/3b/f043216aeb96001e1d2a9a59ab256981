@@ -1,0 +1,24 @@
+package treinamentoLacoCondicional;
+
+import java.util.Scanner;
+
+public class ParesImpares {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner (System.in);
+		int num = 0, a=(num%2);
+		
+		System.out.println("Digite um número: ");
+		num = leia.nextInt();
+		
+		if (a == 0){
+		System.out.println("O número "+num+ " é positivo!"); 
+		} else {
+			System.out.println("O número "+num+ "é negativo!");
+		}
+	
+	}
+
+}

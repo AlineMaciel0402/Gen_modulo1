@@ -1,0 +1,16 @@
+package treinamentoLacoCondicional;
+
+import java.util.Scanner;
+
+public class Doacao {
+	
+	Scanner leia = new Scanner (System.in);
+	String nome;
+	int idade;
+	boolean primeiraDoacao;
+	
+	System.out.println();
+	
+	
+
+}

@@ -1,0 +1,29 @@
+package lacosrepeticao;
+
+import java.util.Scanner;
+
+public class ForExercicio2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numPar = 0, numImpar = 1;
+		Scanner leia = new Scanner (System.in);
+		
+		for(int a = 1; a<=10; a++) {
+			System.out.println("Digite o " +a+ "º número: ");
+			a = leia.nextInt();
+			
+			if (a % 2 == 0) {
+                numPar++;
+                System.out.println("A quantidade de números pares é: "+numPar);
+            } else {
+                numImpar++;
+                System.out.println("A quantidade de números ímpares é: "+numImpar);
+			
+            }
+		}
+		
+		}
+	}
+

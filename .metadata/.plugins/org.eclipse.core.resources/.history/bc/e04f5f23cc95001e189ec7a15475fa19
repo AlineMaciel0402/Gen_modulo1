@@ -1,0 +1,23 @@
+package lacosrepeticao;
+
+import java.util.Scanner;
+
+public class While2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String continua = "s";
+		Scanner leia = new Scanner (System.in);
+		
+		while(continua.equals("s")) {
+			System.out.println("Bom dia!");
+			//continua = "n";
+			System.out.println("Digite s para receber nosso Bom dia!");
+			
+			
+		}
+
+	}
+
+}

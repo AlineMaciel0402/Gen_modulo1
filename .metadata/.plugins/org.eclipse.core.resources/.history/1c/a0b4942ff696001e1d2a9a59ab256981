@@ -1,0 +1,20 @@
+package treinamentoLacoCondicional;
+
+import java.util.Scanner;
+
+public class Lanchonete {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner leia = new Scanner (System.in);
+		int codigo, quantidade, soma;
+		
+		System.out.println("-----CÁRDAPIO----- \n 1 - Cachorro Quente \n 2 - X-Salada \n 3 - X-Bacon"
+				+ "\n 4 - Bauru \n 5 - Refrigerante \n 6 - Suco de laranja");
+		
+		
+
+	}
+
+}

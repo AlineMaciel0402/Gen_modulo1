@@ -1,0 +1,23 @@
+package lacosrepeticao;
+
+import java.util.Scanner;
+
+public class ForExercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String num;
+		Scanner leia = new Scanner (System.in);
+		
+		
+		
+		for(int  num1 = 1; num1<=2; num1++) {
+			System.out.println("Digite o " +num1+ "º número: ");
+			num1 = leia.nextInt();
+			System.out.println("O " +num1+" nome é " +num1);
+				
+
+	}
+}
+}

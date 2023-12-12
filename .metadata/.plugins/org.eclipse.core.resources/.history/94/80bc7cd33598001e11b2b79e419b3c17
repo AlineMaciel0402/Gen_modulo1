@@ -1,0 +1,26 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int matrizInteiros [] = {2,5,1,3,4,9,7,8,10,6};
+		Scanner leia = new Scanner (System.in);
+		
+		System.out.println("Digite o número que você deseja encontrar:");
+		matrizInteiro = leia.nextInt();
+		
+		for( int indiceLinhas = 0; indiceLinhas <10; indiceLinhas++) {
+			matrizInteiros [indiceLinhas] = leia.nextInt();
+			System.out.println("A posição é: " + matrizInteiros);
+		}
+
+		}
+		
+		}	
+
+
+

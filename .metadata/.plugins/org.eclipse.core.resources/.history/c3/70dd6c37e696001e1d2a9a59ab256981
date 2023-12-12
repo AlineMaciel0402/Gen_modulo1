@@ -1,0 +1,12 @@
+package treinamentoLacoCondicional;
+
+import java.util.Scanner;
+
+public class somaIf {
+	
+	Scanner leia = new Scanner (System.in);
+	int n1;
+	
+	System.out.println("Oi");
+	
+}

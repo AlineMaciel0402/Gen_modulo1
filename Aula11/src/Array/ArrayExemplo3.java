@@ -1,0 +1,18 @@
+package Array;
+
+public class ArrayExemplo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String vetorString [] = {"Boxer", "Pastor Alemão", "Pinscher", "Husky Siberiano", "Corgi"};
+		
+		System.out.println("1º Elemento: " + vetorString[0]);
+		System.out.println("2º Elemento: " + vetorString[1]);
+		System.out.println("3º Elemento: " + vetorString[2]);
+		System.out.println("4º Elemento: " + vetorString[3]);
+		System.out.println("5º Elemento: " + vetorString[4]);
+
+	}
+
+}
